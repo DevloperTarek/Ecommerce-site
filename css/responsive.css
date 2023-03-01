@@ -1,0 +1,123 @@
+@media screen and (max-width:768px) {
+    #header  {
+        display: block;
+        cursor: pointer;
+    }
+    #navbar{
+       /* display: flex;        
+        flex-direction: column;
+        background-color: #f5f6f5f6;
+        color: black;
+        position: absolute;
+        top:69px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;  */
+        /* left: 80px; */
+        position: absolute;
+        top: 5rem;
+        right: -120px;
+        width: 100%;
+        ;
+        background-color: red;
+        color: white;
+        border: none;
+        box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+     #navbar .nav {
+        right: 0px;
+     }
+   /* .acter
+    { 
+        display: flex;
+            flex-direction: column;
+            background-color: #f5f6f5f6;
+            position: absolute;
+            top: 69px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 0%;
+            left: -80px;
+    } */
+     
+    #Hero 
+    {
+        width: 100%;
+        background-image: none;
+        display: flex;
+        background-color: #E3e6F3;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #sm-banner
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    #newsletter 
+    {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    #newsletter input
+    {
+    width:100%;
+    min-width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    }
+    #sm-banner3
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+        text-align: center;
+    }
+    #feature
+    {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width:1180px) {
+    #feature {
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 25px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:992px) {
+    #feature {
+        grid-template-columns: auto auto;
+        grid-gap: 25px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
+@media screen and (max-width:480px){
+    #feature {
+            grid-template-columns: auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+}
